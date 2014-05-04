@@ -1,1 +1,34 @@
-img { display: block; }
+.thumbImg {
+	width:100px;
+	height:50px;
+
+}
+
+h3 {
+
+font-family: 'Linden Hill', serif;
+text-align: center;
+
+}
+
+h1 {
+
+font-family: 'Linden Hill', serif;
+font-size: 20px;
+text-align: center;
+
+}
+
+p {
+
+font-family: 'Linden Hill', serif;
+font-size: 12px;
+text-align: center;
+
+}
+
+
+.linkDetails {
+
+
+}

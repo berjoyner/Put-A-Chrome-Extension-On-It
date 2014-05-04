@@ -3,6 +3,7 @@
   <head>
     <title>HW 15- Reddit Chrome Extension</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link href='http://fonts.googleapis.com/css?family=Linden+Hill' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -11,19 +12,19 @@
       <h1>Reddit Your Way!</h1>
     </div>
      
-    <p>Enter a subreddit without <code>/r/</code> to populate the front page of that subreddit</p>
+    <p>Enter a subreddit without <code>/r/</code> to populate the simplified version of the front page.</p>
      
     <div id="search">
       <form id="searchForm" name="searchForm">
-        <input type="text" class="search" id="s" name="s" placeholder="Example: pics">
+        <input type="text" class="search" id="find" name="find" placeholder="Example: pics">
       </form>
     </div>
      
     <div id="redditContent"></div>
 
-
-    <script src="main.js"></script>
-  
+    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    
   
   </body>
 </html>
