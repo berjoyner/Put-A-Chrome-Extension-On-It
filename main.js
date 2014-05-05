@@ -26,7 +26,7 @@ $(function(){
       
        
         html += '<img src="'+thumb+'" class="thumbImg">\n';
-        html += '<div class="linkDetails"><a href="'+extUrl+'" target="_blank"><h5>'+title+'</h5></a>\n';
+        html += '<div class="linkDetails"><a href="'+extUrl+'" target="_blank"><h4>'+title+'</h4></a>\n';
       
 
     } // end for{} loop
